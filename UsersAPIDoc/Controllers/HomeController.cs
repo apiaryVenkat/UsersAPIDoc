@@ -8,11 +8,10 @@ namespace UsersAPIDoc.Controllers
 {
     public class HomeController : Controller
     {
-        public ActionResult Index()
+        // GET api/values/5
+        public string Index()
         {
-            ViewBag.Title = "Home Page";
-
-            return View();
+            return "venkat";
         }
     }
 }
